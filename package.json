@@ -2,5 +2,25 @@
   "dependencies": {
     "express": "^4.18.2",
     "nodemon": "^2.0.22"
-  }
+  },
+  "name": "expressproj",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pizuCoder/expressProj.git"
+  },
+  "author": "Priya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pizuCoder/expressProj/issues"
+  },
+  "homepage": "https://github.com/pizuCoder/expressProj#readme",
+  "description": ""
 }
