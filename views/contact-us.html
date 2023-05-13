@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Add Product</title>
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navigation">
+            <ul class="menu">
+              <li><a href="/" class="menu-item">Shop</a></li>
+              <li><a href="/admin/add-product" class="menu-item">Add Product</a></li>
+              <li><a href="/contact-us" class="menu-item">Contact Us</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main class="add-product-page">
+      <form action="/contact-us" method="POST" class="add-product-form">
+        <label for="title" class="add-product-label">Name:</label>
+        <input type="text" name="username" id="title" class="add-product-input" />
+        <label for="title" class="add-product-label">Email:</label>
+        <input type="email" name="email" id="title" class="add-product-input" />
+       
+        <button type="submit" class="add-product-button">Send Details</button>
+      </form>
+    </main>
+    
+  </body>
+</html>

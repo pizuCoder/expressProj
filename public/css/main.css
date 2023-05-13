@@ -1,0 +1,86 @@
+body{
+    padding:0;
+    margin: 0;
+}
+.navigation {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-item {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .menu-item:hover {
+    color: #fff;
+    background-color: #333;
+  }
+  
+  .page-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .intro-text {
+    font-size: 20px;
+    color: #666;
+    text-align: center;
+  }
+
+
+  /* Add product form styles */
+  .add-product-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .add-product-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .add-product-label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .add-product-input,
+  .add-product-select {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .add-product-button {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-product-button:hover {
+    background-color: #666;
+  }
+    
